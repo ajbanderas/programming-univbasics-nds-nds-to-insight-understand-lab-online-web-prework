@@ -12,8 +12,9 @@ def print_first_directors_movie_titles
   director_index = 0
   while director_index < directors.length do
     if directors[director_index][:name] == "Stephen Spielberg"
-      index = 0
-      while
+      movies_index = 0
+      while movies_index < directors[director_index][:movies].length
+      puts 
     end
     director_index += 1
   end
